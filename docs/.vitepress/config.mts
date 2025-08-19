@@ -24,6 +24,7 @@ export default defineConfig({
       collapsed: false,
       items: [
         { text: 'Qt的安装',
+          collapsed: true, 
           items:[
             { text: 'Qt界面', link: '/guide/getting-started'}
           ]
