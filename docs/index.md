@@ -1,7 +1,6 @@
 ---
 layout: home
 
-# 首页大标题
 hero:
   name: "Qt-Primer"
   text: "Qt 教程文档站"
@@ -12,9 +11,8 @@ hero:
       link: /guide/getting-started
     - theme: alt
       text: QWidget 基础
-      link: /guide/qwidget-basics
+      link: /widgets/qwidget
 
-# 三个特色模块
 features:
   - title: 入门教程
     details: 从项目搭建、控件使用、信号槽机制，一步步掌握 Qt 开发流程。
