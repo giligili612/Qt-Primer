@@ -1,0 +1,12 @@
+# 忽略依赖和构建产物
+node_modules/
+docs/.vitepress/dist/
+
+# 编辑器文件
+.vscode/
+.idea/
+
+# 日志和系统文件
+*.log
+.DS_Store
+
