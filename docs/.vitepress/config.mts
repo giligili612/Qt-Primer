@@ -23,6 +23,11 @@ export default defineConfig({
       text: '入门教程',
       collapsed: false,
       items: [
+        { text: 'Qt的安装',
+          items:[
+            { text: 'Qt界面', link: '/guide/getting-started'}
+          ]
+        },
         { text: '快速开始', link: '/guide/getting-started' },
         { text: '搭建开发环境', link: '/guide/setup' }
       ]
