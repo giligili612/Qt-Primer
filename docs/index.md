@@ -1,25 +1,25 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+# 首页大标题
 hero:
   name: "Qt-Primer"
-  text: "Qt Tutorial"
-  tagline: My great project tagline
+  text: "Qt 教程文档站"
+  tagline: "用最简单的方式，掌握跨平台 Qt 开发"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 快速开始
+      link: /guide/getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: QWidget 基础
+      link: /guide/qwidget-basics
 
+# 三个特色模块
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 入门教程
+    details: 从项目搭建、控件使用、信号槽机制，一步步掌握 Qt 开发流程。
+  - title: 实战案例
+    details: 包含实战项目、界面构建技巧、跨平台兼容经验总结。
+  - title: 学习地图
+    details: 跟随循序渐进的学习路线图，不走弯路，高效入门到进阶。
 ---
-
