@@ -16,8 +16,7 @@ export default defineConfig({
   sidebar: {
   '/': [
     {
-      text: '站点导航',
-      items: [{ text: '首页', link: '/' }]
+      text: '首页',link: '/'
     },
     {
       text: '入门教程',
