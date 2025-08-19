@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Qt-Primer",
   description: "Qt Tutorial",
+  base: '/Qt-Primer/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
