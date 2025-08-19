@@ -7,15 +7,14 @@ export default defineConfig({
   base: '/Qt-Primer/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: '首页', link: '/' },
-      { text: '入门', link: '/guide/getting-started' },
-      { text: '控件', link: '/widgets/qwidget' },
-      { text: '进阶', link: '/advanced/signals-slots' },
-    ],
-
-      sidebar: {
-      '/': [  // ✅ 首页出现在 sidebar（关键点）
+    // nav: [
+    //   { text: '首页', link: '/' },
+    //   { text: '入门', link: '/guide/getting-started' },
+    //   { text: '控件', link: '/widgets/qwidget' },
+    //   { text: '进阶', link: '/advanced/signals-slots' },
+    // ],
+    sidebar: {
+      '/': [
         {
           text: '站点导航',
           items: [
