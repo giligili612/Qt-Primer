@@ -22,5 +22,7 @@ Qt框架本身在全不在精，每个模块都不算太难，Qt模块很多，�
   - [Qt 全流程实战企业级项目 - 云对象存储浏览器](https://coding.imooc.com/class/688.html)：对搭建认识Qt的框架大有裨益，但是每个模块都讲的很浅
   - [Qt Quick开发](https://edu.51cto.com/course/37459.html)：比较全面的Qt Quick教程，缺点是有些部分单节太长，需要人集中注意力
 
+## 联系我
 
+email：huangzekun0703@gmail.com
 
