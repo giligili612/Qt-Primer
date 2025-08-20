@@ -19,7 +19,7 @@ export default defineConfig({
       text: '首页',link: '/'
     },
     {
-      text: '入门教程',
+      text: '快速入门',
       collapsed: false,
       items: [
         { text: 'Qt的安装',
@@ -29,23 +29,31 @@ export default defineConfig({
           ]
         },
         { text: '快速开始', link: '/guide/getting-started' },
-        { text: '搭建开发环境', link: '/guide/setup' }
+        { text: 'qmake和cmake', link: '/guide/getting-started' },
+        {
+          text: 'Qt的专属数据结构',
+          collapsed: false,
+          items:[
+            {text: 'QList', link: '/guide/getting-started'},
+            {text: 'QString', link: '/guide/getting-started'},
+          ]
+        }
       ]
     },
     {
-      text: '控件篇',
+      text: 'Qt Core',
       collapsed: false,
       items: [
-        { text: 'QWidget 基础', link: '/widgets/qwidget' },
-        { text: 'QPushButton', link: '/widgets/qpushbutton' }
+        { text: 'Qt Core 概览', link: '/core/Qt Core' },
+        { text: '信号与槽', link: '/core/Qt Core' }
       ]
     },
     {
-      text: '进阶技巧',
+      text: 'Qt Widgets',
       collapsed: false,
       items: [
-        { text: '信号与槽', link: '/advanced/signals-slots' },
-        { text: '事件处理', link: '/advanced/events' }
+        { text: '桌面组件', link: '/widgets/QWidgets' },
+        { text: '事件处理', link: '/widgets/QWidgets' }
       ]
     }
     ]
